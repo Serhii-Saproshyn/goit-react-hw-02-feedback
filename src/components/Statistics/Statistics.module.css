@@ -1,0 +1,22 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li:not(:last-child) {
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.good {
+  color: #00ff20;
+}
+
+.neutral {
+  color: #00ffee;
+}
+
+.bad {
+  color: #ff0000;
+}
